@@ -15,7 +15,7 @@ module tb_mini_processor;
         .B(B),
         .ctrl(ctrl),
         .LED(LED),
-        .result(result)   // 
+        .result(result)   
     );
 
     initial begin 
