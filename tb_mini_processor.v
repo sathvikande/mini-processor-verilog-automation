@@ -15,7 +15,7 @@ module tb_mini_processor;
         .B(B),
         .ctrl(ctrl),
         .LED(LED),
-        .result(result)   // ✅ Correct case
+        .result(result)   // 
     );
 
     initial begin 
@@ -41,7 +41,7 @@ module tb_mini_processor;
         A=4'b1010; B=4'b1100; ctrl=2'b11; #10;
         $display("%b\t%b\t%02b\t%b\t%b\tOR", A, B, ctrl, result, LED);
 
-        $display("Simulation complete ✅");
+        $display("Simulation complete ");
         $finish;
     end
 endmodule
